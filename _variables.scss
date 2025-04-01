@@ -1,0 +1,14 @@
+:root {
+
+  --container-width: 1200px;
+  --container-padding-x: 15px;
+  @include desktop {
+    --container-width: 1080px;
+  }
+
+  --transition-duration: .2s;
+  --transition: var(--transition-duration) linear;
+
+  --border-radius-circle: 50%;
+
+}
